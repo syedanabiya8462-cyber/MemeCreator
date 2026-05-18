@@ -1,6 +1,6 @@
-# MemeMaster - AI-Powered Meme Creator Platform
+# MemeCreator - AI-Powered Meme Creator Platform
 
-A full-stack web application for creating, customizing, and sharing memes using AI technology.
+A full-stack web application for creating, customizing, and sharing memes using AI technology. A AI meme generation platform, which generates meme just by a prompt given by the user. Displays viral and trending memes. Allows users to make changes with viral memes as templates.
 
 ## Features
 
@@ -35,5 +35,5 @@ A full-stack web application for creating, customizing, and sharing memes using 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/syedanabiyasulthana/meme-creator-platform.git
-cd meme-creator-platform
+git clone https://github.com/syedanabiya8462-cyber/MemeCreator.git
+cd MemeCreator
