@@ -1,0 +1,127 @@
+﻿app/(main)/create/page.tsx(5,58): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/tabs.tsx' is not a module.
+app/(main)/create/page.tsx(8,26): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/textarea.tsx' is not a module.
+app/(main)/create/page.tsx(10,23): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/badge.tsx' is not a module.
+app/(main)/create/page.tsx(11,24): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/select.tsx' is not a module.
+app/(main)/create/page.tsx(13,38): error TS2307: Cannot find module '@/components/meme/AICaptionSuggestions' or its corresponding type declarations.
+app/(main)/create/page.tsx(17,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+app/(main)/create/page.tsx(267,34): error TS7006: Parameter 'e' implicitly has an 'any' type.
+app/(main)/explore/page.tsx(7,24): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/select.tsx' is not a module.
+app/(main)/explore/page.tsx(8,45): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/tabs.tsx' is not a module.
+app/(main)/explore/page.tsx(131,50): error TS7006: Parameter 'v' implicitly has an 'any' type.
+app/(main)/explore/page.tsx(149,57): error TS7006: Parameter 'v' implicitly has an 'any' type.
+app/(main)/meme/[id]/page.tsx(14,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+app/(main)/meme/[id]/page.tsx(76,21): error TS2345: Argument of type 'any[]' is not assignable to parameter of type 'SetStateAction<never[]>'.
+  Type 'any[]' is not assignable to type 'never[]'.
+    Type 'any' is not assignable to type 'never'.
+app/(main)/profile/[username]/page.tsx(8,58): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/tabs.tsx' is not a module.
+app/(main)/settings/page.tsx(8,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+app/(main)/settings/page.tsx(9,26): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/textarea.tsx' is not a module.
+app/(main)/settings/page.tsx(11,58): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/tabs.tsx' is not a module.
+app/(main)/settings/page.tsx(12,24): error TS2307: Cannot find module '@/components/ui/switch' or its corresponding type declarations.
+app/(main)/settings/page.tsx(14,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+app/(main)/settings/page.tsx(251,32): error TS7006: Parameter 'e' implicitly has an 'any' type.
+app/(main)/settings/page.tsx(329,37): error TS7006: Parameter 'checked' implicitly has an 'any' type.
+app/(main)/settings/page.tsx(342,37): error TS7006: Parameter 'checked' implicitly has an 'any' type.
+app/(main)/settings/page.tsx(355,37): error TS7006: Parameter 'checked' implicitly has an 'any' type.
+app/(main)/settings/page.tsx(368,37): error TS7006: Parameter 'checked' implicitly has an 'any' type.
+app/(main)/templates/page.tsx(4,10): error TS2305: Module '"@/components/templates/TemplateCard"' has no exported member 'TemplateCard'.
+app/(main)/templates/page.tsx(8,23): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/badge.tsx' is not a module.
+app/(main)/templates/page.tsx(12,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+app/(main)/templates/page.tsx(52,20): error TS2345: Argument of type 'any[]' is not assignable to parameter of type 'SetStateAction<never[]>'.
+  Type 'any[]' is not assignable to type 'never[]'.
+    Type 'any' is not assignable to type 'never'.
+app/(main)/templates/page.tsx(75,31): error TS2322: Type '{ onUploadComplete: () => void; }' is not assignable to type 'IntrinsicAttributes & TemplateUploadProps'.
+  Property 'onUploadComplete' does not exist on type 'IntrinsicAttributes & TemplateUploadProps'.
+app/api/ai/generate-image/route.ts(43,42): error TS18048: 'response.data' is possibly 'undefined'.
+app/api/memes/id/comments/route.ts(28,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/memes/id/like/route.ts(9,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/memes/id/like/route.ts(46,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/memes/id/route.ts(50,23): error TS2339: Property 'length' does not exist on type '{ Error: "Type mismatch: Cannot cast array result to a single object. Use .overrideTypes<Array<YourType>> or .returns<Array<YourType>> (deprecated) for array results or .single() to convert the result to a single object"; }'.
+app/api/memes/id/route.ts(57,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/templates/route.ts(36,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/users/username/follow/route.ts(9,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/users/username/follow/route.ts(45,11): error TS2339: Property 'user' does not exist on type 'UserResponse'.
+app/api/users/username/following/route.ts(2,8): error TS2304: Cannot find name 'NextRequest'.
+app/api/users/username/following/route.ts(5,20): error TS2304: Cannot find name 'createClient'.
+app/api/users/username/following/route.ts(14,12): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/api/users/username/following/route.ts(23,12): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/api/users/username/following/route.ts(26,10): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/api/users/username/following/route.ts(26,37): error TS7006: Parameter 'f' implicitly has an 'any' type.
+app/api/users/username/memes/route.ts(2,8): error TS2304: Cannot find name 'NextRequest'.
+app/api/users/username/memes/route.ts(5,20): error TS2304: Cannot find name 'createClient'.
+app/api/users/username/memes/route.ts(15,12): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/api/users/username/memes/route.ts(26,12): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/api/users/username/memes/route.ts(29,10): error TS2552: Cannot find name 'NextResponse'. Did you mean 'Response'?
+app/layout.tsx(4,31): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/providers/ThemeProvider.tsx' is not a module.
+app/page.tsx(7,10): error TS2305: Module '"@/components/templates/TemplateCard"' has no exported member 'TemplateCard'.
+components/layout/Navbar.tsx(15,8): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/dropdown-menu.tsx' is not a module.
+components/layout/Navbar.tsx(17,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+components/layout/Navbar.tsx(19,26): error TS2307: Cannot find module 'next-themes' or its corresponding type declarations.
+components/layout/Sidebar.tsx(17,25): error TS2307: Cannot find module '@/lib/hooks/useAuth' or its corresponding type declarations.
+components/layout/Sidebar.tsx(18,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/meme/AICaptionSuggestion.tsx(6,24): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/select.tsx' is not a module.
+components/meme/MemeCard.tsx(10,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/meme/MemeCard.tsx(18,43): error TS2304: Cannot find name 'useState'.
+components/meme/MemeEditor.tsx(6,24): error TS2307: Cannot find module '@/components/ui/slider' or its corresponding type declarations.
+components/meme/MemeEditor.tsx(7,58): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/tabs.tsx' is not a module.
+components/meme/MemeEditor.tsx(8,29): error TS2307: Cannot find module '@/components/ui/color-picker' or its corresponding type declarations.
+components/meme/MemeEditor.tsx(9,38): error TS2307: Cannot find module './AICaptionSuggestions' or its corresponding type declarations.
+components/meme/MemeEditor.tsx(26,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/meme/MemeEditor.tsx(418,16): error TS2304: Cannot find name 'Sparkles'.
+components/meme/MemeEditor.tsx(434,52): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(444,38): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/meme/MemeEditor.tsx(444,63): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(455,52): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(471,52): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(480,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(487,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(494,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(501,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(508,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(519,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(527,50): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(539,54): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(549,38): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/meme/MemeEditor.tsx(549,63): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+components/meme/MemeEditor.tsx(583,34): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/meme/MemeEditor.tsx(594,34): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/meme/MemeEditor.tsx(605,34): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/meme/MemeEditor.tsx(616,34): error TS7031: Binding element 'value' implicitly has an 'any' type.
+components/social/Comments.tsx(8,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+components/social/FollowButon.tsx(6,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+components/social/LikeButton.tsx(7,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+components/social/ShareButtons.tsx(19,8): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/dropdown-menu.tsx' is not a module.
+components/templates/TemplateCard.tsx(6,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+components/templates/TemplateCard.tsx(7,24): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/select.tsx' is not a module.
+components/templates/TemplateCard.tsx(10,25): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/lib/hooks/useAuth.ts' is not a module.
+components/templates/TemplateCard.tsx(180,14): error TS2304: Cannot find name 'Badge'.
+components/templates/TemplateCard.tsx(189,15): error TS2304: Cannot find name 'Badge'.
+components/templates/TemplateGallery.tsx(6,28): error TS2307: Cannot find module '@/components/ui/scroll-area' or its corresponding type declarations.
+components/templates/TemplateGallery.tsx(10,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/templates/TemplateUpload.tsx(4,29): error TS2307: Cannot find module 'react-dropzone' or its corresponding type declarations.
+components/templates/TemplateUpload.tsx(7,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+components/templates/TemplateUpload.tsx(8,24): error TS2306: File 'C:/Users/syeda/OneDrive/Desktop/MemeCreator/components/ui/select.tsx' is not a module.
+components/templates/TemplateUpload.tsx(11,10): error TS2724: '"@/lib/utils/imageProcessor"' has no exported member named 'optimizeImage'. Did you mean 'optimizeMemeImage'?
+components/ui/avatar.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/button.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/card.tsx(2,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/dialog.tsx(6,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/input.tsx(2,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/skeleton.tsx(1,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+components/ui/toast.tsx(7,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+lib/ai/openai.ts(18,10): error TS18048: 'response.data' is possibly 'undefined'.
+lib/utils/rateLimiter.ts(44,31): error TS2802: Type 'MapIterator<[string, RateLimitRecord]>' can only be iterated through when using the '--downlevelIteration' flag or with a '--target' of 'es2015' or higher.
+middleware.ts(1,40): error TS2307: Cannot find module '@supabase/auth-helpers-nextjs' or its corresponding type declarations.

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Funny & Sarcastic Light Theme - Pastel vibes */
+    --background: 40 33% 98%; /* Creamy off-white */
+    --foreground: 200 9% 19%; /* Matte dark grey */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 200 9% 19%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 9% 19%;
+    
+    /* Pastel Pink/Coral */
+    --primary: 350 100% 85%;
+    --primary-foreground: 200 9% 19%; /* Matte text on pastel */
+    
+    /* Pastel Yellow */
+    --secondary: 45 100% 80%;
+    --secondary-foreground: 200 9% 19%;
+    
+    --muted: 40 20% 90%;
+    --muted-foreground: 200 5% 45%;
+    
+    /* Pastel Mint/Teal */
+    --accent: 160 60% 85%;
+    --accent-foreground: 200 9% 19%;
+    
+    --destructive: 0 84% 75%; /* Pastel red */
+    --destructive-foreground: 200 9% 19%;
+    
+    --border: 40 20% 85%;
+    --input: 40 20% 85%;
+    --ring: 350 100% 85%; /* Match primary */
+    
+    --radius: 1rem; /* Fun rounded corners */
+  }
+
+  .dark {
+    /* Funny & Sarcastic Dark Theme - Mood lighting */
+    --background: 230 25% 15%; /* Matte dark blue/grey */
+    --foreground: 40 33% 98%; /* Creamy text */
+    
+    --card: 230 25% 18%;
+    --card-foreground: 40 33% 98%;
+    
+    --popover: 230 25% 18%;
+    --popover-foreground: 40 33% 98%;
+    
+    /* Pastel Purple for dark mode */
+    --primary: 270 80% 75%;
+    --primary-foreground: 230 25% 15%; /* Matte dark text on pastel */
+    
+    /* Pastel Teal */
+    --secondary: 170 70% 70%;
+    --secondary-foreground: 230 25% 15%;
+    
+    --muted: 230 20% 25%;
+    --muted-foreground: 230 15% 65%;
+    
+    /* Pastel Pink */
+    --accent: 330 80% 75%;
+    --accent-foreground: 230 25% 15%;
+    
+    --destructive: 0 60% 60%;
+    --destructive-foreground: 40 33% 98%;
+    
+    --border: 230 20% 25%;
+    --input: 230 20% 25%;
+    --ring: 270 80% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; /* Adds to the sarcastic meme vibe */
+  }
+}
+
+/* Custom scrollbar - thick and fun */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full border-2 border-background;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
+}
+
+/* Loading animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, hsl(var(--muted)) 0%, hsl(var(--border)) 20%, hsl(var(--muted)) 40%, hsl(var(--muted)) 100%);
+  background-size: 1000px 100%;
+}
